@@ -19,10 +19,19 @@ input[type=text]:focus{
     /* background-color:#B9345A; */
 }
 
-.delete{
+.delete,.edit{
     cursor: pointer;
 }
 
 .filtered{
     display: none !important;
+}
+
+#save,#discard,#submit{
+    display: none;
+    margin-top: 1.5em;
+}
+
+#nav{
+    background-color: #96b4cf !important;
 }
